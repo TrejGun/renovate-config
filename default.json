@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "github>gemunion/renovate-config:rules"
+  ],
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "wcFMA/xDdHCJBTolAQ//Rac/bBlcbzuS7uHXeLBKpCCALGSp25SmgjS6TUUO1xnwMzEewOQdNE0juKYi9LMP3pL9zpik5MKmKCKxLqP4mOHwnKFKGr87DwRcP4ixXX/j6AH3aMFiWrZQI1sqmoDpyw6fx9DE7CJPTF149eUKy0R0793qFh9dcu3CTOvmJPiyleo9FOy09b47J5dXZYmHP2Fr9V7c1OJCU/2qFRXxgm20BeIa5oG2VWKUtGw5T4ZZmjjBmaDV6ZckiWECQHDdfMMbUdYq6azNM7sN1RMG1WAVn2UrFnAdrEb5c2WL7IeMeT4uKSxQxzwgXI4T+VXwKpROLPPdTTkOkaU+xUf73O4V3V8lyW0T1EzSzRnzVMmpnW+pbfM9i3AMwnmOjcGil7V7SlpT0EpCY4DWgSgvnDFgNNtLfEdAEd8g0mlOF0Bp1zxKHUOjOj0lkH+k6HiqdONPcC4htO2AbuPVgGSOuu6qqzE2RKiL6XoFZtw9aKyRclJfxfKnqiejuslf+2Pg3Qje4dWfUhhy/TBxmMYlgTj5KsHvkD8OutyqYliYW/rgh4GZtr7jyqwT1dNazPjqKASwOh2jnJIEUzA84SIyi+7uwogM7hTNoEVSxrHGQH43QajSPYv2maWRF1+z7QuvYlSwVfcYdERffZgolQz7QIrwVNsWpCGLwtHwLJvg2bfSdgFFmJH6O08dHinj4x6iXRXhvDcwxaN8sBxSvrQLxnbr2xdazGIGBN5bn//8/jpFGKsIj1Uf8amJ9SfEGYg3QPFSXlnV/12hIMh2b81nO4M2lEV8A6MP96rgKytT+ZlH41rdf7dZe/62sA/s6VIwtnhKndma7iw"
+      }
+    }
+  ],
+  "npmrc": "@gemunion:registry=https://npm.pkg.github.com/"
+}
