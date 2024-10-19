@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>gemunion/renovate-config:rules"
+    "github>ethberry/renovate-config:rules"
   ],
   "hostRules": [
     {
@@ -9,5 +9,11 @@
       "token": "{{ secrets.GITHUB_TOKEN_TREJGUN }}"
     }
   ],
-  "npmrc": "@gemunion:registry=https://npm.pkg.github.com/"
+  "npmrc": "@ethberry:registry=https://npm.pkg.github.com/",
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
 }
