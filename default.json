@@ -12,7 +12,7 @@
   "npmrc": "@ethberry:registry=https://npm.pkg.github.com/",
   "packageRules": [
     {
-      "updateTypes": ["minor", "patch"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
   ]
